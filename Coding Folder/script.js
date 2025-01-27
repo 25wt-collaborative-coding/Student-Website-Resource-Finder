@@ -36,7 +36,7 @@ function getBotResponse(userMessage) {
 	} else if (lowerCaseMessage.includes("athletics")) {
         return "Here is the link to the Oberlin Athletics Page: <a href='https://goyeo.com/' target='_blank'>Oberlin Athletics</a>";
 	} else if (lowerCaseMessage.includes("no more")) {
-        return "That's okay, what would you like to know more about?";
+        return "That's okay, type in the chat if you wish to know more";
 	} else {
         return responses[lowerCaseMessage] || "I'm sorry, I don't understand that.";
     }
