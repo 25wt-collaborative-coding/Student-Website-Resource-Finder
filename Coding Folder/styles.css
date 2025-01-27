@@ -59,17 +59,22 @@ button:hover {
     background-color: #0056b3;
 }
 
-legend {
-    left: 0;
-    top: 0;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 200px;
-    height: 200px;
-    max-width: 100%;
-    padding: 10px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+.legend {
+    position: absolute; /* Position the legend absolutely */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    font-size: 1.5em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #007BFF; /* Blue text color */
+    background-color: #ffffff; /* White background */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+fieldset {
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside the fieldset */
+    background-color: #ffffff; /* White background */
+    margin-top: 60px; /* Add margin to avoid overlap with the legend */
 }
