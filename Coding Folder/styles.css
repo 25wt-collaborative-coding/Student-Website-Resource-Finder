@@ -1,11 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('/Users/raluchiobioha/Downloads/albino.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; /* Keeps the background fixed during scrolling */
-    background-color: #f0f0f0; /* Fallback color */
+    background-color: #9c0404;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,5 +69,6 @@ fieldset {
     border-radius: 5px; /* Rounded corners */
     padding: 20px; /* Padding inside the fieldset */
     background-color: #ffffff; /* White background */
+    border-color: yellow;
     margin-top: 60px; /* Add margin to avoid overlap with the legend */
 }
