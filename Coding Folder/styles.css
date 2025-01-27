@@ -1,6 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-image: url('a10049ba08f426c8a901b38cda81c2ff9a956a7f-799x533.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-color: #f0f0f0; /* Fallback color */
     display: flex;
     justify-content: center;
     align-items: center;
