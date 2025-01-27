@@ -35,7 +35,7 @@ function getBotResponse(userMessage) {
         return "You want to know more about Oberlin College. Here is the link to the About Oberlin Page: <a href='https://www.oberlin.edu/about-oberlin' target='_blank'>About Oberlin</a>";
 	} else if (lowerCaseMessage.includes("athletics")) {
         return "Here is the link to the Oberlin Athletics Page: <a href='https://goyeo.com/' target='_blank'>Oberlin Athletics</a>";
-	} else if (lowerCaseMessage.includes("not")) {
+	} else if (lowerCaseMessage.includes("no more")) {
         return "That's okay, what would you like to know more about?";
 	} else {
         return responses[lowerCaseMessage] || "I'm sorry, I don't understand that.";
