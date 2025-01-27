@@ -34,7 +34,7 @@ function getBotResponse(userMessage) {
 	} else if (lowerCaseMessage.includes("oberlin")) {
         return "You want to know more about Oberlin College. Here is the link to the About Oberlin Page: <a href='https://www.oberlin.edu/about-oberlin' target='_blank'>About Oberlin</a>";
 	} else if (lowerCaseMessage.includes("athletics")) {
-        return "Here is the link to the Oberlin Athletics Page: <a href='https://goyeo.com/' target='_blank'>Oberlin Athletics</a>";
+        return "Oberlin has a myriad of sports teams that compete at the NCAA Division 3 level. To find out more, Here is the link to the Oberlin Athletics Page: <a href='https://goyeo.com/' target='_blank'>Oberlin Athletics</a>";
 	} else if (lowerCaseMessage.includes("no more")) {
         return "That's okay, type in the chat if you wish to know more";
 	} else {
